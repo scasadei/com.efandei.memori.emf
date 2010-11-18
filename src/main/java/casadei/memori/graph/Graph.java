@@ -4,13 +4,12 @@ package casadei.memori.graph;
 
 import java.util.Vector;
 
-public class Graph {
+public abstract class Graph {
 
-	final NodeMethods<?> node;
+	NodeMethods<?> node;
 	
-	Graph(NodeMethods<?> arg) {
-		node = arg;
-	}
+	// Graph() {}
+	// Graph(NodeMethods<?> arg) {	node = arg;	}
 	
 	// this is a place-holder for node methods switched by kind
 	Vector<KindSwitchedNodeMethod<?>> kindSwitchedNodeMethods;
