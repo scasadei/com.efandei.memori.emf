@@ -12,11 +12,12 @@ public abstract class NodeMethods<T> {
 	
 	// int implementations
 	
-	boolean isNode(int ni) { return false;}
-	boolean isLeaf (int ni) { return false;}
-	int getPhylum(int ni) { return -1;}
-	int getGenus(int ni)  { return -1;}
-	Object getData(int ni)  { return null;}
-	void print(int ni)  {}
+	public boolean isNode(int ni) { return false;}
+	public boolean isLeaf (int ni) { return false;}
+	public int getPhylum(int ni) { return -1;}
+	public int getGenus(int ni)  { return -1;}
+	public Object getData(int ni)  { return null;}
+	public void print(int ni)  {}
+	public String toString(int ni) { return "To Be Done"; }
 
 }

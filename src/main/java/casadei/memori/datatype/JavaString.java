@@ -39,7 +39,7 @@ public class JavaString extends casadei.memori.graph.DataType{
 		
 		@Override
 		public void print(int ni) {
-			System.out.println(super.graph.intNode.getData(ni));
+			System.out.println(super.graph.node().getData(ni));
 		}
 
 		@Override
@@ -50,7 +50,7 @@ public class JavaString extends casadei.memori.graph.DataType{
 		@Override
 		public String toString(int ni) {
 			// TODO Auto-generated method stub
-			return (String) super.graph.intNode.getData(ni);
+			return (String) super.graph.node().getData(ni);
 		}
 		
 	}

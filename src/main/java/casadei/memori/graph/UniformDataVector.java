@@ -23,81 +23,34 @@ public class UniformDataVector <E> extends Graph {
 		dataHandler = udt.makeHandler(this);
 		data = new Vector<E>();
 
-
-		intNode = new IntNodeInterface() {
-			
-			@Override
-			public Object getData(int ni) {
-				// return dataType.intNode.getData(ni);
-				return data.get(ni);
-			}
-
-			@Override 
-			public int getSpecies(int ni) {
-				return 0;
-			}
-
-			@Override
-			public int getPhylum(int ni) {
-				return 0;
-			}
-
-			@Override
-			public boolean isLeaf(int ni) {
-				// TODO Auto-generated method stub
-				return false;
-			}
-
-			@Override
-			public boolean isNode(int ni) {
-				// TODO Auto-generated method stub
-				return false;
-			}
-
-			@Override
-			public void print(int ni) {
-				dataHandler.print(ni);
-			}
-
-			@Override
-			public int getSubkey(int ni) {
-				// there is no node subkey in a primitive graph
-				return -1;
-			}
-
-			@Override
-			public String toString(int ni) {
-				return dataHandler.toString(ni);
-			}
-		};
-		
 		node = new NodeMethods<Integer>() {
 			@Override
 			boolean isNode(Integer ni) {
-				// TODO Auto-generated method stub
 				return false;
 			}
 			@Override
 			boolean isLeaf(Integer ni) {
-				// TODO Auto-generated method stub
 				return false;
 			}
 			@Override
 			int getPhylum(Integer ni) {
-				// TODO Auto-generated method stub
-				return 0;
+				return -1;
 			}
 			@Override
 			int getGenus(Integer ni) {
-				// TODO Auto-generated method stub
-				return 0;
+				return -1;
 			}
 			@Override
 			Object getData(Integer ni) {
-				return null;
+				return data.get(ni);
 			}
 			@Override
 			void print(Integer ni) {
+				dataHandler.print(ni);
+			}
+			@Override
+			public String toString(int ni) {
+				return dataHandler.toString(ni);
 			}
 		};		
 	}
@@ -105,12 +58,6 @@ public class UniformDataVector <E> extends Graph {
 
 	public DataType getDataType() { return dataType; }
 	
-	@SuppressWarnings("unchecked")
-	@Override
-	public <T> NodeInterface<T> getGraphView() {
-		return 	(NodeInterface<T>) super.intNode;
-	}
-
 	public IntvecNodeInterface intvecView() {
 		return null;
 	}
@@ -118,56 +65,5 @@ public class UniformDataVector <E> extends Graph {
 	public JavaNodeInterface objectView() {
 		return null;
 	}
-	
-	class UniformDataVectorNodeMethods implements NodeMethods.NodeMethodIntAccess {
-		
-		@Override
-		public Object getData(int ni) {
-			// return dataType.intNode.getData(ni);
-			return data.get(ni);
-		}
-
-		public int getSpecies(int ni) {
-			return 0;
-		}
-
-		@Override
-		public int getPhylum(int ni) {
-			return 0;
-		}
-
-		@Override
-		public boolean isLeaf(int ni) {
-			// TODO Auto-generated method stub
-			return false;
-		}
-
-		@Override
-		public boolean isNode(int ni) {
-			// TODO Auto-generated method stub
-			return false;
-		}
-
-		@Override
-		public void print(int ni) {
-			dataHandler.print(ni);
-		}
-
-		public int getSubkey(int ni) {
-			// there is no node subkey in a primitive graph
-			return -1;
-		}
-
-		public String toString(int ni) {
-			return dataHandler.toString(ni);
-		}
-
-		@Override
-		public int getGenus(int ni) {
-			// TODO Auto-generated method stub
-			return 0;
-		}
-	}
-	
 
 }
