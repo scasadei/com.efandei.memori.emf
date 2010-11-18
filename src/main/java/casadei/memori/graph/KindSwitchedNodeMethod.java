@@ -1,5 +1,5 @@
 package casadei.memori.graph;
 
-public interface PhylumSwitchedNodeAction<T> {
+public interface KindSwitchedNodeMethod<T> {
 	public Object run(Graph mg, int pi, T nodeKey);
 }

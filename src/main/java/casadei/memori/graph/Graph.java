@@ -4,12 +4,16 @@ package casadei.memori.graph;
 
 import java.util.Vector;
 
-public abstract class Graph {
+public class Graph {
 
-	NodeMethods<?> node = null;
+	final NodeMethods<?> node;
 	
-	// this is a place-holder for node-actions switched by phylum
-	Vector<PhylumSwitchedNodeAction<?>> phylumSwitchedNodeActions;
+	Graph(NodeMethods<?> arg) {
+		node = arg;
+	}
+	
+	// this is a place-holder for node methods switched by kind
+	Vector<KindSwitchedNodeMethod<?>> kindSwitchedNodeMethods;
 	
 	// it should probably be the concrete classes to implemtent getGraph
 	public Graph getGraph() { return this; }
