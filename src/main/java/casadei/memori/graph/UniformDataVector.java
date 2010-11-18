@@ -57,13 +57,6 @@ public class UniformDataVector <E> extends Graph {
 
 
 	public DataType getDataType() { return dataType; }
-	
-	public IntvecNodeInterface intvecView() {
-		return null;
-	}
 
-	public JavaNodeInterface objectView() {
-		return null;
-	}
 
 }
