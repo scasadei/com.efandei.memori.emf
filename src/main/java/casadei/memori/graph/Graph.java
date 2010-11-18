@@ -1,4 +1,4 @@
-package stefadei.memori.graph;
+package casadei.memori.graph;
 
 // imported into eclipse
 
