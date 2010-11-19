@@ -20,27 +20,27 @@ public class UniformDataVector <E> extends Graph {
 
 	class NodeMethods_UniformDataVector extends NodeMethods<Integer> {
 		@Override
-		boolean isNode(Integer ni) {
+		public boolean isNode(Integer ni) {
 			return false;
 		}
 		@Override
-		boolean isLeaf(Integer ni) {
+		public boolean isLeaf(Integer ni) {
 			return false;
 		}
 		@Override
-		int getPhylum(Integer ni) {
+		public int getPhylum(Integer ni) {
 			return -1;
 		}
 		@Override
-		int getGenus(Integer ni) {
+		public int getGenus(Integer ni) {
 			return -1;
 		}
 		@Override
-		Object getData(Integer ni) {
+		public Object getData(Integer ni) {
 			return data.get(ni);
 		}
 		@Override
-		void print(Integer ni) {
+		public void print(Integer ni) {
 			dataHandler.print(ni);
 		}
 		@Override
