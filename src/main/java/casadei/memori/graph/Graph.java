@@ -6,7 +6,8 @@ import java.util.Vector;
 
 public abstract class Graph {
 
-	NodeMethods<?> node;
+	protected AbstractNodeMethods<?> node = null;
+	protected AbstractNodeMethodsIntAccess inode = null;
 	
 	// Graph() {}
 	// Graph(NodeMethods<?> arg) {	node = arg;	}
@@ -17,5 +18,13 @@ public abstract class Graph {
 	// it should probably be the concrete classes to implemtent getGraph
 	public Graph getGraph() { return this; }
 
-	public NodeMethods<?> node() { return node; }
+	public AbstractNodeMethods<?> node() { return node; }
+	public AbstractNodeMethodsIntAccess inode() { return inode; }
+	
+	// A Concrete graph may implement a Graph.View, other than the default 'node' and expose it
+	// It is called a "View" because it sits on top of the graph!
+	public class NodeMethodsView<T> extends AbstractNodeMethods<T> {
+		NodeMethodsView () {}
+		public Graph graph() { return Graph.this; }
+	}
 }

@@ -1,17 +1,7 @@
 package casadei.memori.graph;
 
-public abstract class NodeMethods<T> {
+public class AbstractNodeMethodsIntAccess {
 
-
-	public boolean isNode(T ni) { return false;}
-	public boolean isLeaf (T ni) { return false;}
-	public int getPhylum(T ni) { return -1;}
-	public int getGenus(T ni) { return -1;}
-	public Object getData(T ni) { return null;}
-	public void print(T ni) {}
-	
-	// int implementations
-	
 	public boolean isNode(int ni) { return false;}
 	public boolean isLeaf (int ni) { return false;}
 	public int getPhylum(int ni) { return -1;}

@@ -81,7 +81,7 @@ public class Test {
 			System.out.println(topdirname + " is not a dir");
 		
 		for (int i=0; i<strings.size(); i++)
-			System.out.println(i+": "+strings.node.toString(i));
+			System.out.println(i+": "+strings.inode.toString(i));
 			
 	}
 	

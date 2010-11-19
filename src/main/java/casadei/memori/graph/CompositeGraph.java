@@ -13,7 +13,7 @@ public class CompositeGraph extends Graph {
 	
 	public Graph mi2graph(int mi) { return components.get(mi); }
 	
-	class NodeMethods_CompositeGraph<T> extends NodeMethods<T> {
+	class NodeMethodsIntAccess extends AbstractNodeMethodsIntAccess {
 		
 		
 		private int [] pi2mi; // kind-root to component (was phylum to memory item)
@@ -31,7 +31,7 @@ public class CompositeGraph extends Graph {
 			int di = ni2si[ni];
 			int submi = pi2mi[pi];
 			Graph subm = components.get(submi);
-			return subm.node().getData(di);
+			return subm.inode().getData(di);
 		}
 
 		@Override
@@ -60,7 +60,7 @@ public class CompositeGraph extends Graph {
 	};
 
 	public <T> CompositeGraph() {
-		node = new NodeMethods_CompositeGraph<T>();
+		inode = new NodeMethodsIntAccess();
 	}
 	
 	
