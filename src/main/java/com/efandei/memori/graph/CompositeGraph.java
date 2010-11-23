@@ -1,4 +1,4 @@
-package casadei.memori.graph;
+package com.efandei.memori.graph;
 import java.util.Vector;
 
 /*

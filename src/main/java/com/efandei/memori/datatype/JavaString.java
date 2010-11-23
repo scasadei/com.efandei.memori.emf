@@ -1,8 +1,8 @@
-package casadei.memori.datatype;
+package com.efandei.memori.datatype;
 
-import casadei.memori.graph.Graph;
+import com.efandei.memori.graph.Graph;
 
-public class JavaString extends casadei.memori.graph.DataType{
+public class JavaString extends com.efandei.memori.graph.DataType{
 
 	public static final JavaString INSTANCE = new JavaString ();
 	
@@ -33,7 +33,7 @@ public class JavaString extends casadei.memori.graph.DataType{
 		*/
 	};
 	
-	public class StringHandler extends casadei.memori.graph.DataType.Handler {
+	public class StringHandler extends com.efandei.memori.graph.DataType.Handler {
 		
 		public StringHandler(Graph aGraph) { super(aGraph); }
 		

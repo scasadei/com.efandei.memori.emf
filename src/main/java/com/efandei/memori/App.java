@@ -1,4 +1,4 @@
-package casadei.memori;
+package com.efandei.memori;
 
 /**
  * Hello world!
