@@ -4,6 +4,9 @@ package com.efandei.memori.graph;
 
 import java.util.Vector;
 
+/**
+ * @model
+ */
 public abstract class Graph {
 
 	protected AbstractNodeMethods<?> node = null;
@@ -15,7 +18,10 @@ public abstract class Graph {
 	// this is a place-holder for node methods switched by kind
 	Vector<KindSwitchedNodeMethod<?>> kindSwitchedNodeMethods;
 	
-	// it should probably be the concrete classes to implemtent getGraph
+	/**
+	 * @model
+	 */
+	 // it should probably be the concrete classes to implement getGraph
 	public Graph getGraph() { return this; }
 
 	public AbstractNodeMethods<?> node() { return node; }
