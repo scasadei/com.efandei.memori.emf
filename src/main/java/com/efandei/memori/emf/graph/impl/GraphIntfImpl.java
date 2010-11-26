@@ -4,10 +4,10 @@
  *
  * $Id$
  */
-package com.efandei.memori.graph.impl;
+package com.efandei.memori.emf.graph.impl;
 
-import com.efandei.memori.graph.GraphIntf;
-import com.efandei.memori.graph.GraphPackage;
+import com.efandei.memori.emf.graph.GraphIntf;
+import com.efandei.memori.emf.graph.GraphPackage;
 
 import org.eclipse.emf.ecore.EClass;
 

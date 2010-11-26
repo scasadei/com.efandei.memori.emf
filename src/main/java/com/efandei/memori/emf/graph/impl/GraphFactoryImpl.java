@@ -4,9 +4,9 @@
  *
  * $Id$
  */
-package com.efandei.memori.graph.impl;
+package com.efandei.memori.emf.graph.impl;
 
-import com.efandei.memori.graph.*;
+import com.efandei.memori.emf.graph.*;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;

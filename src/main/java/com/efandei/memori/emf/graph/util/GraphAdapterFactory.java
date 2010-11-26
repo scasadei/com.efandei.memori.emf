@@ -4,9 +4,9 @@
  *
  * $Id$
  */
-package com.efandei.memori.graph.util;
+package com.efandei.memori.emf.graph.util;
 
-import com.efandei.memori.graph.*;
+import com.efandei.memori.emf.graph.*;
 
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notifier;
@@ -20,7 +20,7 @@ import org.eclipse.emf.ecore.EObject;
  * The <b>Adapter Factory</b> for the model.
  * It provides an adapter <code>createXXX</code> method for each class of the model.
  * <!-- end-user-doc -->
- * @see com.efandei.memori.graph.GraphPackage
+ * @see com.efandei.memori.emf.graph.GraphPackage
  * @generated
  */
 public class GraphAdapterFactory extends AdapterFactoryImpl {
@@ -100,13 +100,13 @@ public class GraphAdapterFactory extends AdapterFactoryImpl {
 
 
 	/**
-	 * Creates a new adapter for an object of class '{@link com.efandei.memori.graph.Graph <em>Graph</em>}'.
+	 * Creates a new adapter for an object of class '{@link com.efandei.memori.emf.graph.Graph <em>Graph</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see com.efandei.memori.graph.Graph
+	 * @see com.efandei.memori.emf.graph.Graph
 	 * @generated
 	 */
 	public Adapter createGraphAdapter() {
@@ -114,13 +114,13 @@ public class GraphAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link com.efandei.memori.graph.GraphIntf <em>Intf</em>}'.
+	 * Creates a new adapter for an object of class '{@link com.efandei.memori.emf.graph.GraphIntf <em>Intf</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see com.efandei.memori.graph.GraphIntf
+	 * @see com.efandei.memori.emf.graph.GraphIntf
 	 * @generated
 	 */
 	public Adapter createGraphIntfAdapter() {

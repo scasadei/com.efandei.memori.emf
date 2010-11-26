@@ -13,7 +13,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <package
             uri="http:///com/efandei/memori/graph.ecore"
-            class="com.efandei.memori.graph.GraphPackage"
+            class="com.efandei.memori.emf.graph.GraphPackage"
             genModel="model/memori.genmodel"/>
    </extension>
 

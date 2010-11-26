@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <genmodel:GenModel xmi:version="2.0"
-    xmlns:xmi="http://www.omg.org/XMI" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.efandei.memoriCopy/src/main/java"
-    modelPluginID="com.efandei.memoriCopy" modelName="Memori" importerID="org.eclipse.emf.importer.java"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.efandei.memori.emf/src/main/java"
+    modelPluginID="com.efandei.memori.emf" modelName="MemoriEmf" importerID="org.eclipse.emf.importer.java"
     complianceLevel="5.0" copyrightFields="false">
   <foreignModel>@model</foreignModel>
-  <genPackages prefix="Graph" basePackage="com.efandei.memori" disposableProviderFactory="true"
+  <genPackages prefix="Graph" basePackage="com.efandei.memori.emf" disposableProviderFactory="true"
       ecorePackage="graph.ecore#/">
     <genClasses image="false" ecoreClass="graph.ecore#//Graph"/>
     <genClasses ecoreClass="graph.ecore#//GraphIntf"/>

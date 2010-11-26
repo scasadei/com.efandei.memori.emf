@@ -7,7 +7,7 @@ Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: com.efandei.memori.graph,
+Export-Package: com.efandei.memori.emf.graph,
  com.efandei.memori.graph.impl,
  com.efandei.memori.graph.util
 Require-Bundle: org.eclipse.core.runtime,

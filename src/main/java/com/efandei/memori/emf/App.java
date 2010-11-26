@@ -1,4 +1,4 @@
-package com.efandei.memori;
+package com.efandei.memori.emf;
 
 /**
  * Hello world!

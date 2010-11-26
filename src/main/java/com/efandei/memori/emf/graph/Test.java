@@ -1,4 +1,4 @@
-package com.efandei.memori.graph;
+package com.efandei.memori.emf.graph;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -15,7 +15,7 @@ public class Test {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		UniformDataVector<String> strings = new UniformDataVector<String>(com.efandei.memori.datatype.JavaString.INSTANCE);
+		UniformDataVector<String> strings = new UniformDataVector<String>(com.efandei.memori.emf.datatype.JavaString.INSTANCE);
 		
 		String s = File.separator;
 		// String rootdirpath = "G:"+s+"core"+s+"sclab"+s+"proj"+s+"emoria"+s+"lib"+s+"@memori";

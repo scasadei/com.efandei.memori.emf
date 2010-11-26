@@ -4,9 +4,9 @@
  *
  * $Id$
  */
-package com.efandei.memori.graph.util;
+package com.efandei.memori.emf.graph.util;
 
-import com.efandei.memori.graph.*;
+import com.efandei.memori.emf.graph.*;
 
 import java.util.List;
 
@@ -23,7 +23,7 @@ import org.eclipse.emf.ecore.EObject;
  * until a non-null result is returned,
  * which is the result of the switch.
  * <!-- end-user-doc -->
- * @see com.efandei.memori.graph.GraphPackage
+ * @see com.efandei.memori.emf.graph.GraphPackage
  * @generated
  */
 public class GraphSwitch<T> {

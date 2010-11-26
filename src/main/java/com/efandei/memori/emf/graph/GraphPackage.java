@@ -4,7 +4,7 @@
  *
  * $Id$
  */
-package com.efandei.memori.graph;
+package com.efandei.memori.emf.graph;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EPackage;
@@ -20,7 +20,7 @@ import org.eclipse.emf.ecore.EPackage;
  *   <li>and each data type</li>
  * </ul>
  * <!-- end-user-doc -->
- * @see com.efandei.memori.graph.GraphFactory
+ * @see com.efandei.memori.emf.graph.GraphFactory
  * @model kind="package"
  * @generated
  */
@@ -55,14 +55,14 @@ public interface GraphPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	GraphPackage eINSTANCE = com.efandei.memori.graph.impl.GraphPackageImpl.init();
+	GraphPackage eINSTANCE = com.efandei.memori.emf.graph.impl.GraphPackageImpl.init();
 
 	/**
-	 * The meta object id for the '{@link com.efandei.memori.graph.impl.GraphImpl <em>Graph</em>}' class.
+	 * The meta object id for the '{@link com.efandei.memori.emf.graph.impl.GraphImpl <em>Graph</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see com.efandei.memori.graph.impl.GraphImpl
-	 * @see com.efandei.memori.graph.impl.GraphPackageImpl#getGraph()
+	 * @see com.efandei.memori.emf.graph.impl.GraphImpl
+	 * @see com.efandei.memori.emf.graph.impl.GraphPackageImpl#getGraph()
 	 * @generated
 	 */
 	int GRAPH = 0;
@@ -77,11 +77,11 @@ public interface GraphPackage extends EPackage {
 	int GRAPH_FEATURE_COUNT = 0;
 
 	/**
-	 * The meta object id for the '{@link com.efandei.memori.graph.impl.GraphIntfImpl <em>Intf</em>}' class.
+	 * The meta object id for the '{@link com.efandei.memori.emf.graph.impl.GraphIntfImpl <em>Intf</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see com.efandei.memori.graph.impl.GraphIntfImpl
-	 * @see com.efandei.memori.graph.impl.GraphPackageImpl#getGraphIntf()
+	 * @see com.efandei.memori.emf.graph.impl.GraphIntfImpl
+	 * @see com.efandei.memori.emf.graph.impl.GraphPackageImpl#getGraphIntf()
 	 * @generated
 	 */
 	int GRAPH_INTF = 1;
@@ -96,21 +96,21 @@ public interface GraphPackage extends EPackage {
 	int GRAPH_INTF_FEATURE_COUNT = 0;
 
 	/**
-	 * Returns the meta object for class '{@link com.efandei.memori.graph.Graph <em>Graph</em>}'.
+	 * Returns the meta object for class '{@link com.efandei.memori.emf.graph.Graph <em>Graph</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Graph</em>'.
-	 * @see com.efandei.memori.graph.Graph
+	 * @see com.efandei.memori.emf.graph.Graph
 	 * @generated
 	 */
 	EClass getGraph();
 
 	/**
-	 * Returns the meta object for class '{@link com.efandei.memori.graph.GraphIntf <em>Intf</em>}'.
+	 * Returns the meta object for class '{@link com.efandei.memori.emf.graph.GraphIntf <em>Intf</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Intf</em>'.
-	 * @see com.efandei.memori.graph.GraphIntf
+	 * @see com.efandei.memori.emf.graph.GraphIntf
 	 * @generated
 	 */
 	EClass getGraphIntf();
@@ -138,21 +138,21 @@ public interface GraphPackage extends EPackage {
 	 */
 	interface Literals {
 		/**
-		 * The meta object literal for the '{@link com.efandei.memori.graph.impl.GraphImpl <em>Graph</em>}' class.
+		 * The meta object literal for the '{@link com.efandei.memori.emf.graph.impl.GraphImpl <em>Graph</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see com.efandei.memori.graph.impl.GraphImpl
-		 * @see com.efandei.memori.graph.impl.GraphPackageImpl#getGraph()
+		 * @see com.efandei.memori.emf.graph.impl.GraphImpl
+		 * @see com.efandei.memori.emf.graph.impl.GraphPackageImpl#getGraph()
 		 * @generated
 		 */
 		EClass GRAPH = eINSTANCE.getGraph();
 
 		/**
-		 * The meta object literal for the '{@link com.efandei.memori.graph.impl.GraphIntfImpl <em>Intf</em>}' class.
+		 * The meta object literal for the '{@link com.efandei.memori.emf.graph.impl.GraphIntfImpl <em>Intf</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see com.efandei.memori.graph.impl.GraphIntfImpl
-		 * @see com.efandei.memori.graph.impl.GraphPackageImpl#getGraphIntf()
+		 * @see com.efandei.memori.emf.graph.impl.GraphIntfImpl
+		 * @see com.efandei.memori.emf.graph.impl.GraphPackageImpl#getGraphIntf()
 		 * @generated
 		 */
 		EClass GRAPH_INTF = eINSTANCE.getGraphIntf();

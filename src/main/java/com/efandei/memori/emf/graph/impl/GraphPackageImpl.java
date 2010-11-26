@@ -4,12 +4,12 @@
  *
  * $Id$
  */
-package com.efandei.memori.graph.impl;
+package com.efandei.memori.emf.graph.impl;
 
-import com.efandei.memori.graph.Graph;
-import com.efandei.memori.graph.GraphFactory;
-import com.efandei.memori.graph.GraphIntf;
-import com.efandei.memori.graph.GraphPackage;
+import com.efandei.memori.emf.graph.Graph;
+import com.efandei.memori.emf.graph.GraphFactory;
+import com.efandei.memori.emf.graph.GraphIntf;
+import com.efandei.memori.emf.graph.GraphPackage;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EPackage;
@@ -48,7 +48,7 @@ public class GraphPackageImpl extends EPackageImpl implements GraphPackage {
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see org.eclipse.emf.ecore.EPackage.Registry
-	 * @see com.efandei.memori.graph.GraphPackage#eNS_URI
+	 * @see com.efandei.memori.emf.graph.GraphPackage#eNS_URI
 	 * @see #init()
 	 * @generated
 	 */

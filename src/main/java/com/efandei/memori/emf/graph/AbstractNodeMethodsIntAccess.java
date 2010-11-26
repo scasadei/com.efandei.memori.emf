@@ -1,4 +1,4 @@
-package com.efandei.memori.graph;
+package com.efandei.memori.emf.graph;
 
 public class AbstractNodeMethodsIntAccess {
 
