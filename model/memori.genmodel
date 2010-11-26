@@ -6,7 +6,7 @@
   <foreignModel>@model</foreignModel>
   <genPackages prefix="Graph" basePackage="com.efandei.memori" disposableProviderFactory="true"
       ecorePackage="graph.ecore#/">
-    <genEnums typeSafeEnumCompatible="false" ecoreEnum="graph.ecore#//Graph"/>
+    <genClasses ecoreClass="graph.ecore#//Graph"/>
     <genClasses ecoreClass="graph.ecore#//GraphInterface"/>
   </genPackages>
 </genmodel:GenModel>
