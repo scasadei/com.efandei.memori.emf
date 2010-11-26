@@ -3,6 +3,6 @@
     xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="graph"
     nsURI="http:///com/efandei/memori/graph.ecore" nsPrefix="com.efandei.memori.graph">
-  <eClassifiers xsi:type="ecore:EClass" name="Graph"/>
-  <eClassifiers xsi:type="ecore:EClass" name="GraphInterface"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Graph" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GraphIntf"/>
 </ecore:EPackage>

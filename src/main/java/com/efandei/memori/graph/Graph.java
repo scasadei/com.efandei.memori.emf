@@ -2,12 +2,13 @@ package com.efandei.memori.graph;
 
 // imported into eclipse
 
+import org.eclipse.emf.ecore.EObject;
 import java.util.Vector;
 
 /**
- * @model kind="class", abstract="true"
+ * @model kind="class" abstract="true"
  */
-public abstract class Graph {
+public abstract class Graph implements EObject {
 
 	protected AbstractNodeMethods<?> node = null;
 	protected AbstractNodeMethodsIntAccess inode = null;
